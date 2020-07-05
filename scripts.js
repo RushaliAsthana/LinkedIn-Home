@@ -70,6 +70,7 @@ function likeUnlike()
     var but=document.getElementById("emhead");
         but.innerHTML="Like";
         but.style.color="gray";
+        document.getElementById("icon").className = "fa fa-thumbs-o-up";
         // document.getElementById("icon").style.color="gray";
    emoclose();
 }
