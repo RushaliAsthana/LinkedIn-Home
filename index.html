@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>LinkedIn Home</title>
+    </head>
+    <body>
+        
+        <div class="topnav" id="myTopnav">
+            <!-- <img  src="https://lh3.googleusercontent.com/fqYJHtyzZzA4vacRzeJoB93QNvA5-mvR-8UB5oVLxdYDSTpfLp_KgYD4IqVGJUgFEJo"> -->
+            <div class="pull-left">
+          <a> <img height="40" src="https://lh3.googleusercontent.com/fqYJHtyzZzA4vacRzeJoB93QNvA5-mvR-8UB5oVLxdYDSTpfLp_KgYD4IqVGJUgFEJo"> <i class="fa fa-search fa-lg" id="search" ></i><span class="s1" id="sp">Search</span><input id="sinp" onfocus="search()" onfocusout="normal()" type="text" ></a>
+            </div>
+          <div class="pull-right">
+          <a><i class="fa fa-home fa-lg"></i><br>Home</a>
+          <a href="#news"><i class="fa fa-users fa-lg" aria-hidden="true"></i><br>My Network</a>
+          <a href="#contact"><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i><br>Jobs</a>
+          <a href="#about"><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i><br>Messaging</a>
+          <a href="#about"><i class="fa fa-bell fa-lg" aria-hidden="true"></i><br>Notifications</a>
+          <a href="#about"><i class="fa fa-user fa-lg" aria-hidden="true"></i><br>Me</a>
+          <a href="#about"><i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i><i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i><i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i><br> Work</a>
+         
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars fa-2x"></i>
+          </a>
+        </div>
+        <br><br>
+        <div class="container">
+        <div class="col">
+          <div class="card">
+              <div class="card-header">
+              <span id="followers" ><b>Prathibha Shrivastav,Abhik Sarkar</b> and 731 connections follow linkedin </span> <i style="float: right;"class="fa fa-ellipsis-h fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="card-body">
+                <img style="float:left"src="https://lh3.googleusercontent.com/fqYJHtyzZzA4vacRzeJoB93QNvA5-mvR-8UB5oVLxdYDSTpfLp_KgYD4IqVGJUgFEJo" height="50px">
+                <div class="boiler-plate">
+                <b>LinkedIn</b><br>
+                <span class="greyish">100000 followers  <span id="follow">Follow +</span><br>
+                Promoted</span> 
+                </div>
+               <div class="card-content">
+                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                    </p>
+                    <img src="https://www.nestle.in/sites/g/files/pydnoa451/files/styles/full_width_image_1920x795_/public/job-search-main_1.jpg?itok=MiJC2Lit"><br><br>
+               </div>
+               <div id="emoticons" onmouseleave="emoclose()" style="display: none;">
+                <i class="fa fa-thumbs-o-up fa-2x" id="like" onclick="emotes(this.id)" aria-hidden="true"></i>
+                <i class="fa fa-hand-peace-o fa-2x"id="applause" onclick="emotes(this.id)" aria-hidden="true"></i>
+                <i class="fa fa-heart-o fa-2x" id="heart" onclick="emotes(this.id)" aria-hidden="true"></i>
+                <i class="fa fa-lightbulb-o fa-2x" id="lightbulb" onclick="emotes(this.id)" aria-hidden="true"></i>
+                <i class="fa fa-smile-o fa-2x" id="smile" onclick="emotes(this.id)" aria-hidden="true"></i>
+               </div><br>
+               <div class="card-footer">
+                <button type="button" onclick="likeUnlike()" onmouseover="emojis()"><i class="fa fa-thumbs-o-up" id="icon" ></i> <span id="emhead">  Like</span></button>
+                <button type="button"><i class='fa fa-comment-o'></i> Comment</button>
+                <button type="button"><i class='fa fa-share'></i> Share</button>
+                <button type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
+               </div>
+            </div>
+             </div>
+          </div>
+        </div>
+        
+        
+</body>        
+</html>
